@@ -1,4 +1,4 @@
-namespace MyBank.Service
+namespace MyBankService.Web
 {
     public class WeatherForecast
     {

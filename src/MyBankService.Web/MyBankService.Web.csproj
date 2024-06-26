@@ -9,7 +9,10 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.6.2" />
+  </ItemGroup>
+	
+  <ItemGroup>
+	<InternalsVisibleTo Include="MyBankService.UnitTests"/>
   </ItemGroup>
 
 </Project>

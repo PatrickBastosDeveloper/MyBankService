@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace MyBank.Service.Controllers
+namespace MyBankService.Web.Controllers
 {
     [ApiController]
     [Route("[controller]")]

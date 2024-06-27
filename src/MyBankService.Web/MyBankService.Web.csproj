@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -13,6 +13,10 @@
 	
   <ItemGroup>
 	<InternalsVisibleTo Include="MyBankService.UnitTests"/>
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\MyBankService.Infra\MyBankService.Infra.csproj" />
   </ItemGroup>
 
 </Project>
